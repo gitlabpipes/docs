@@ -56,7 +56,7 @@ Click **Add Webhook!**
 
 Modify your `.gitlab-ci.yml` jobs to only be triggered via API. You can also add `web` to allow you to manually start pipelines in the case of an emergency.
 
-Add `api` and `web` under an `only` block in each job that will run on the bra
+Add `api` and `web` under an `only` block in each job that will need to run when a commit is pushed to a release branch or when a downstream dependency changes.
 
 {% code-tabs %}
 {% code-tabs-item title=".gitlab-ci.yml" %}
