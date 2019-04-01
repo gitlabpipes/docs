@@ -23,7 +23,7 @@ only:
 dependencies:
   - BackendDatabaseModels/master
   - ExternalClientModels/master
-  - CommonsProject/master-2.0
+  - CommonsProject/maybe-another-release-branch
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -35,7 +35,7 @@ More information about the syntax of this file can be found [here](configuration
 Gitlab Pipes listens to Push Events and Pipeline Events from Gitlab to let it know when to act. You must register Gitlab Pipes to receive the proper webhooks from Gitlab.
 
 {% hint style="info" %}
-**If you are paying for Gitlab EE then you can configure Webhooks at the Group level.**
+**If you are paying for Gitlab Silver or Higher Tier then you can configure Webhooks at the Group level.**
 {% endhint %}
 
 ![Adding Gitlab Pipes Webhooks to a Project](.gitbook/assets/image.png)
